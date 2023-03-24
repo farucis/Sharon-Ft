@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/Sharon-Ft/static/css/main.ada3a9ae.css",
-    "main.js": "/Sharon-Ft/static/js/main.bed4f3e4.js",
+    "main.js": "/Sharon-Ft/static/js/main.442ec9da.js",
     "static/js/787.bfbd36d2.chunk.js": "/Sharon-Ft/static/js/787.bfbd36d2.chunk.js",
-    "static/media/bg-video.mp4": "/Sharon-Ft/static/media/bg-video.22db88e47f7b7aabfe1a.mp4",
+    "static/media/20230123_165342.mp4": "/Sharon-Ft/static/media/20230123_165342.5e8d8fab89803de7f790.mp4",
     "static/media/second.png": "/Sharon-Ft/static/media/second.4b8a5f851e98fd8d7fcd.png",
     "static/media/first.png": "/Sharon-Ft/static/media/first.78ed768287fd7d430556.png",
     "index.html": "/Sharon-Ft/index.html",
     "main.ada3a9ae.css.map": "/Sharon-Ft/static/css/main.ada3a9ae.css.map",
-    "main.bed4f3e4.js.map": "/Sharon-Ft/static/js/main.bed4f3e4.js.map",
+    "main.442ec9da.js.map": "/Sharon-Ft/static/js/main.442ec9da.js.map",
     "787.bfbd36d2.chunk.js.map": "/Sharon-Ft/static/js/787.bfbd36d2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ada3a9ae.css",
-    "static/js/main.bed4f3e4.js"
+    "static/js/main.442ec9da.js"
   ]
 }
