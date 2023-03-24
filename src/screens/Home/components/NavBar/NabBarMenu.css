@@ -1,0 +1,37 @@
+.overly {
+  background-color: rgba(1, 1, 1, 0.6);
+  display: flex;
+  height: 200vh;
+  width: 100%;
+}
+.menu-container {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(238, 230, 230);
+  height: 100vh;
+  width: 70vw;
+  right: 0;
+  top: 6vh;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 70%;
+}
+
+.menu-button {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.menu-button li {
+  font-size: 34px;
+  color: rgb(162, 30, 206);
+}

@@ -1,0 +1,58 @@
+.navBar-container {
+  display: flex;
+  z-index: 5;
+  height: 6vh;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: fixed;
+  align-items: center;
+  float: right;
+  background-color: rgb(208, 107, 221)
+}
+i {
+  cursor: pointer;
+  font-size: 30px;
+  position: absolute;
+  right: 0;
+  margin-right: 10px;
+  color: aliceblue;
+}
+
+.contact-buttones {
+  display: flex;
+  justify-content: space-between;
+  width: 160px;
+  font-size: 25px;
+  position: absolute;
+  right: 100px;
+}
+.contact-buttones a {
+  color: aliceblue;
+}
+
+.n-logo {
+  background-image: url(../../../../assets/pictures/logo/second.png);
+  height: 53px;
+  width: 53px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  left: 20px;
+
+}
+
+@media screen and (max-width: 1110px) {
+  .navBar-container {
+    padding-top: 3px;
+    display: flex;
+    height: 4vh;
+  }
+  .n-logo {
+
+    height: 33px;
+    width: 33px;
+  }
+}
+
