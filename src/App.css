@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-color: rgb(169, 33, 142);
+
 }
 
 .App-logo {
@@ -13,7 +15,7 @@ video {
   object-fit: cover;
 }
 button {
-  background-color: aqua;
+  background-color: rgb(169, 33, 142);
 }
 
 li {
@@ -23,7 +25,7 @@ li {
 button {
   --b: 3px; /* border thickness */
   --s: 0.45em; /* size of the corner */
-  --color: #1dc182;
+  --color: rgba(169, 33, 142, 0.95);
 
   padding: calc(0.5em + var(--s)) calc(0.9em + var(--s));
   color: var(--color);
@@ -64,8 +66,6 @@ button:active {
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
-
 
 .App-link {
   color: #61dafb;

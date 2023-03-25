@@ -1,0 +1,39 @@
+.customer-processes-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+}
+.customer-processes-container img {
+  height: 300px;
+  width: 300px;
+  cursor: pointer;
+}
+.images-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding-top: 10px;
+  width: 100%;
+}
+.image-container {
+  padding: 10px;
+}
+.title-container {
+  font-size: larger;
+  color: rgb(34, 3, 208);
+}
+
+@media screen and (max-width: 1110px) {
+  .images-container {
+    grid-template-columns: auto auto auto;
+    width: 100vw;
+
+  }
+  .image-container {
+    padding: 1px;
+  }
+  .customer-processes-container img {
+    height: 18vh;
+    width: 30vw;
+  }
+}

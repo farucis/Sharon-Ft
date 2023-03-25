@@ -12,18 +12,15 @@ const NavBar = () => {
 
   return (
     <div className="navBar-container">
-        <div className="n-logo" ></div>
+      <div className="n-logo"></div>
       <div className="contact-buttones">
-        <a
-          //href={`https://waze.com/ul?ll=${this.state.linkLat},${this.state.linkLng}&navigate=yes`}
-          //target="_blank"
-        >
+        <a href="https://ul.waze.com/ul?preview_venue_id=22806840.228002868.613111&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location">
           <FaWaze />
         </a>
-        <a href="">
+        <a href="https://www.instagram.com/invites/contact/?i=x7ikcv5pitc5&utm_content=uf68p%E2%80%8E%E2%80%8F">
           <FaInstagramSquare />
         </a>
-        <a href="">
+        <a href="https://wa.me/message/EZX2HIMY3WDRM1">
           <FaPhoneSquare />
         </a>
       </div>

@@ -24,7 +24,7 @@ const HeaderVideo = () => {
       <div className="contant-container">
         <div className="logo" />
         <div className="contant">
-          <h1> ברוכים הבאים </h1>
+          <h1> ההצלחה שלך היא ההצלחה שלי </h1>
           <button> לאימון הבא </button>
         </div>
       </div>
