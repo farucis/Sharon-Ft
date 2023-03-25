@@ -1,18 +1,30 @@
 {
   "files": {
-    "main.css": "/Sharon-Ft/static/css/main.4c919555.css",
-    "main.js": "/Sharon-Ft/static/js/main.09422b1d.js",
+    "main.css": "/Sharon-Ft/static/css/main.40300a1e.css",
+    "main.js": "/Sharon-Ft/static/js/main.60b30f53.js",
     "static/js/787.bfbd36d2.chunk.js": "/Sharon-Ft/static/js/787.bfbd36d2.chunk.js",
     "static/media/bg-video.mp4": "/Sharon-Ft/static/media/bg-video.411d767ef2df7fd117b0.mp4",
+    "static/media/IMG_20221127_152800.jpg": "/Sharon-Ft/static/media/IMG_20221127_152800.c70bbc4a770fa8f222f7.jpg",
+    "static/media/IMG_20230109_103101.jpg": "/Sharon-Ft/static/media/IMG_20230109_103101.8a17ea30b7fb13dd8858.jpg",
+    "static/media/Screenshot_20221025-211131_Gallery.jpg": "/Sharon-Ft/static/media/Screenshot_20221025-211131_Gallery.e7e26c1c1bc9b21331cd.jpg",
+    "static/media/Screenshot_20221025-210611_WhatsAppBusiness.jpg": "/Sharon-Ft/static/media/Screenshot_20221025-210611_WhatsAppBusiness.e80011632761c92fb25d.jpg",
+    "static/media/Screenshot_20221025-210438_Gallery.jpg": "/Sharon-Ft/static/media/Screenshot_20221025-210438_Gallery.80a9582841e788367b5d.jpg",
+    "static/media/Screenshot_20221025-211140_Gallery.jpg": "/Sharon-Ft/static/media/Screenshot_20221025-211140_Gallery.ca5e4ff2473fd0955302.jpg",
+    "static/media/Screenshot_20221025-204611_WhatsAppBusiness.jpg": "/Sharon-Ft/static/media/Screenshot_20221025-204611_WhatsAppBusiness.7330fc8299daa6a5ca23.jpg",
+    "static/media/Screenshot_20221025-204713_WhatsAppBusiness.jpg": "/Sharon-Ft/static/media/Screenshot_20221025-204713_WhatsAppBusiness.43a2567b3f3466446bbc.jpg",
+    "static/media/Screenshot_20221025-205817_WhatsAppBusiness.jpg": "/Sharon-Ft/static/media/Screenshot_20221025-205817_WhatsAppBusiness.3a2f1fcec226e2f4e495.jpg",
+    "static/media/Screenshot_20221025-210503_Gallery.jpg": "/Sharon-Ft/static/media/Screenshot_20221025-210503_Gallery.276da7c9bb4be1eb9d97.jpg",
     "static/media/second.png": "/Sharon-Ft/static/media/second.4b8a5f851e98fd8d7fcd.png",
+    "static/media/Screenshot_20221025-205916_WhatsAppBusiness.jpg": "/Sharon-Ft/static/media/Screenshot_20221025-205916_WhatsAppBusiness.76b42965551a7af6f6d4.jpg",
+    "static/media/Screenshot_20220907-141208_WhatsAppBusiness.jpg": "/Sharon-Ft/static/media/Screenshot_20220907-141208_WhatsAppBusiness.1cd306c861a3d1e43a89.jpg",
     "static/media/first.png": "/Sharon-Ft/static/media/first.78ed768287fd7d430556.png",
     "index.html": "/Sharon-Ft/index.html",
-    "main.4c919555.css.map": "/Sharon-Ft/static/css/main.4c919555.css.map",
-    "main.09422b1d.js.map": "/Sharon-Ft/static/js/main.09422b1d.js.map",
+    "main.40300a1e.css.map": "/Sharon-Ft/static/css/main.40300a1e.css.map",
+    "main.60b30f53.js.map": "/Sharon-Ft/static/js/main.60b30f53.js.map",
     "787.bfbd36d2.chunk.js.map": "/Sharon-Ft/static/js/787.bfbd36d2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4c919555.css",
-    "static/js/main.09422b1d.js"
+    "static/css/main.40300a1e.css",
+    "static/js/main.60b30f53.js"
   ]
 }
