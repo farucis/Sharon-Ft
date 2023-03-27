@@ -1,29 +1,175 @@
-.navBar-container {
-  display: flex;
-  z-index: 5;
-  height: 6vh;
-  width: 100%;
-  left: 0;
-  top: 0;
-  position: fixed;
-  align-items: center;
-  float: right;
-  background-color: rgba(169, 33, 142, 0.552)
+@import url("https://fonts.googleapis.com/css?family=Varela+Round");
+html,
+body {
+  height: 100%;
 }
-i {
-  cursor: pointer;
-  font-size: 30px;
-  position: absolute;
+body {
+  background: #fff;
+  padding: 0;
+  margin: 0;
+  font-family: "Varela Round", sans-serif;
+}
+.overlyy {
+  display: flex;
+  width: 100%;
+  max-width: 100%;
+  box-shadow: none;
+  background-color: rgba(0, 0, 0, 0.455);
+  position: fixed;
+  height: 100% !important;
+  overflow: hidden;
+  z-index: 4;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 500ms ease-in-out;
+}
+.header {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 100%;
+  box-shadow: none;
+  background-color: rgba(169, 33, 142, 0.552);
+  position: fixed;
+  height: 40px !important;
+  overflow: hidden;
+  z-index: 10;
+}
+#sidebarMenu {
+  height: 100%;
+  position: fixed;
   right: 0;
-  margin-right: 10px;
-  color: aliceblue;
+  width: 60%;
+  height: 70vh;
+
+  margin-top: 90px;
+  transform: translateX(100%);
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  transition: transform 750ms ease-in-out;
+  background: linear-gradient(
+    180deg,
+    rgb(169, 33, 142, 0.9) 0%,
+    rgb(255, 77, 139, 0.8) 100%
+  );
+  z-index: 99;
+}
+.sidebarMenuInner {
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+
+}
+.sidebarMenuInner :hover {
+  background: rgb(180, 80, 158) 100%;
+  font-size: 20px;
+  transition: all 150ms ease-in;
+
+}
+
+.sidebarMenuInner li {
+  transition: all 400ms ease-in-out;
+  height: 30px;
+
+  list-style: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 20px;
+  cursor: pointer;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+.sidebarMenuInner li span {
+  display: block;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.sidebarMenuInner li a {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+}
+input[type="checkbox"]:checked ~ #sidebarMenu {
+  transform: translateX(0);
+}
+input[type="checkbox"]:checked ~ .overlyy {
+  visibility: visible;
+  opacity: 1;
+  transition: all 500ms;
+}
+
+input[type="checkbox"] {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  display: none;
+}
+.sidebarIconToggle {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  cursor: pointer;
+  position: fixed;
+  z-index: 99;
+  height: 100%;
+  width: 100%;
+  top: 13px;
+  right: 15px;
+  height: 22px;
+  width: 22px;
+}
+.spinner {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  background-color: #fff;
+}
+.horizontal {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  position: relative;
+  float: left;
+  margin-top: 3px;
+}
+.diagonal.part-1 {
+  position: relative;
+  transition: all 0.3s;
+  box-sizing: border-box;
+  float: left;
+}
+.diagonal.part-2 {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  position: relative;
+  float: left;
+  margin-top: 3px;
+}
+input[type="checkbox"]:checked ~ .sidebarIconToggle > .horizontal {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  opacity: 0;
+}
+input[type="checkbox"]:checked ~ .sidebarIconToggle > .diagonal.part-1 {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  transform: rotate(135deg);
+  margin-top: 8px;
+}
+input[type="checkbox"]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
+  transition: all 0.3s;
+  box-sizing: border-box;
+  transform: rotate(-135deg);
+  margin-top: -9px;
 }
 
 .contact-buttones {
+  top: 10px;
   display: flex;
   justify-content: space-between;
   width: 160px;
-  font-size: 25px;
+  font-size: 23px;
   position: absolute;
   right: 100px;
 }
@@ -40,19 +186,4 @@ i {
   background-position: center;
   position: absolute;
   left: 20px;
-
 }
-
-@media screen and (max-width: 1110px) {
-  .navBar-container {
-    padding-top: 3px;
-    display: flex;
-    height: 4vh;
-  }
-  .n-logo {
-
-    height: 33px;
-    width: 33px;
-  }
-}
-
