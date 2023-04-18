@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/Sharon-Ft/static/css/main.c7de7bea.css",
-    "main.js": "/Sharon-Ft/static/js/main.3f8d7144.js",
+    "main.css": "/Sharon-Ft/static/css/main.78bfd33f.css",
+    "main.js": "/Sharon-Ft/static/js/main.67dcc70d.js",
     "static/js/787.bfbd36d2.chunk.js": "/Sharon-Ft/static/js/787.bfbd36d2.chunk.js",
-    "static/media/bg-video.mp4": "/Sharon-Ft/static/media/bg-video.411d767ef2df7fd117b0.mp4",
+    "static/media/bg-video.mp4": "/Sharon-Ft/static/media/bg-video.f3187c505a1ad36e5457.mp4",
     "static/media/IMG_20221127_152800.jpg": "/Sharon-Ft/static/media/IMG_20221127_152800.c70bbc4a770fa8f222f7.jpg",
     "static/media/IMG_20230109_103101.jpg": "/Sharon-Ft/static/media/IMG_20230109_103101.8a17ea30b7fb13dd8858.jpg",
     "static/media/Screenshot_20221025-211131_Gallery.jpg": "/Sharon-Ft/static/media/Screenshot_20221025-211131_Gallery.e7e26c1c1bc9b21331cd.jpg",
@@ -19,12 +19,12 @@
     "static/media/Screenshot_20220907-141208_WhatsAppBusiness.jpg": "/Sharon-Ft/static/media/Screenshot_20220907-141208_WhatsAppBusiness.1cd306c861a3d1e43a89.jpg",
     "static/media/first.png": "/Sharon-Ft/static/media/first.78ed768287fd7d430556.png",
     "index.html": "/Sharon-Ft/index.html",
-    "main.c7de7bea.css.map": "/Sharon-Ft/static/css/main.c7de7bea.css.map",
-    "main.3f8d7144.js.map": "/Sharon-Ft/static/js/main.3f8d7144.js.map",
+    "main.78bfd33f.css.map": "/Sharon-Ft/static/css/main.78bfd33f.css.map",
+    "main.67dcc70d.js.map": "/Sharon-Ft/static/js/main.67dcc70d.js.map",
     "787.bfbd36d2.chunk.js.map": "/Sharon-Ft/static/js/787.bfbd36d2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c7de7bea.css",
-    "static/js/main.3f8d7144.js"
+    "static/css/main.78bfd33f.css",
+    "static/js/main.67dcc70d.js"
   ]
 }
