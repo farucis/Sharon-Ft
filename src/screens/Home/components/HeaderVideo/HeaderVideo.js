@@ -9,6 +9,7 @@ const HeaderVideo = () => {
     <div className="hader-container">
       <div className="overlay" />
       <div
+      className="video-container"
         dangerouslySetInnerHTML={{
           __html: `
         <video

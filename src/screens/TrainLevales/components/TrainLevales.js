@@ -3,7 +3,7 @@ import "./TrainLevales.css";
 
 const TrainLevales = () => {
   return (
-    <ul class="tilesWrap">
+    <ul className="tilesWrap">
       <li>
         <h2>01</h2>
         <h3>אימון קבוצתי בודד</h3>
