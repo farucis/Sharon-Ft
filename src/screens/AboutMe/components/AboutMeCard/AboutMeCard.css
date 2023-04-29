@@ -1,0 +1,62 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: #999a9d;
+  padding: 5px;
+  z-index: 5;
+  box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  width: 1160px;
+  min-height: 560px;
+  box-sizing: border-box;
+  transition: 200ms ease-in-out;
+}
+.card-title {
+  display: flex;
+  flex-direction: row-reverse;
+  color: white;
+  font-size: 20px;
+  border-radius: 20px;
+}
+
+.card-contact {
+  display: flex;
+  justify-content: center;
+  text-align: right;
+  padding: 3px;
+}
+
+.contact-text {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  font-size: 13px;
+}
+.contact-gallery {
+  display: flex;
+  flex: 1;
+}
+
+.gallery-images {
+  display: flex;
+  position: absolute;
+  overflow-x: scroll;
+  width: 610px;
+  margin-top: 14px;
+  left: -30px;
+}
+
+.gallery-image img {
+  margin: 8px;
+  width: 250px;
+  height: 400px;
+  object-fit: cover;
+  object-position: center;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.gallery-scrollbar {
+  display: flex;
+  width: 100%;
+}
