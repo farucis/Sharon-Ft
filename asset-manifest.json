@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Sharon-Ft/static/css/main.fd760bed.css",
-    "main.js": "/Sharon-Ft/static/js/main.0408db7a.js",
+    "main.css": "/Sharon-Ft/static/css/main.89b1dc9b.css",
+    "main.js": "/Sharon-Ft/static/js/main.c2f04afe.js",
     "static/js/787.bfbd36d2.chunk.js": "/Sharon-Ft/static/js/787.bfbd36d2.chunk.js",
     "static/media/bg-video.mp4": "/Sharon-Ft/static/media/bg-video.f3187c505a1ad36e5457.mp4",
     "static/media/IMG_20221127_152800.jpg": "/Sharon-Ft/static/media/IMG_20221127_152800.c70bbc4a770fa8f222f7.jpg",
@@ -16,6 +16,9 @@
     "static/media/Screenshot_20221025-205817_WhatsAppBusiness.jpg": "/Sharon-Ft/static/media/Screenshot_20221025-205817_WhatsAppBusiness.3a2f1fcec226e2f4e495.jpg",
     "static/media/self2.jpeg": "/Sharon-Ft/static/media/self2.61d2876794d92d218307.jpeg",
     "static/media/self4.jpeg": "/Sharon-Ft/static/media/self4.7726cda70bd16ed781e7.jpeg",
+    "static/media/self5.jpeg": "/Sharon-Ft/static/media/self5.7726cda70bd16ed781e7.jpeg",
+    "static/media/self6.jpeg": "/Sharon-Ft/static/media/self6.7726cda70bd16ed781e7.jpeg",
+    "static/media/self7.jpeg": "/Sharon-Ft/static/media/self7.7726cda70bd16ed781e7.jpeg",
     "static/media/self1.jpeg": "/Sharon-Ft/static/media/self1.88a3bf5b1d0bdd9f06be.jpeg",
     "static/media/Screenshot_20221025-210503_Gallery.jpg": "/Sharon-Ft/static/media/Screenshot_20221025-210503_Gallery.276da7c9bb4be1eb9d97.jpg",
     "static/media/self3.jpeg": "/Sharon-Ft/static/media/self3.dc1a7343930ca24059cb.jpeg",
@@ -25,12 +28,12 @@
     "static/media/first.png": "/Sharon-Ft/static/media/first.78ed768287fd7d430556.png",
     "static/media/background-lines.png": "/Sharon-Ft/static/media/background-lines.2ba56da22d3b46b411b0.png",
     "index.html": "/Sharon-Ft/index.html",
-    "main.fd760bed.css.map": "/Sharon-Ft/static/css/main.fd760bed.css.map",
-    "main.0408db7a.js.map": "/Sharon-Ft/static/js/main.0408db7a.js.map",
+    "main.89b1dc9b.css.map": "/Sharon-Ft/static/css/main.89b1dc9b.css.map",
+    "main.c2f04afe.js.map": "/Sharon-Ft/static/js/main.c2f04afe.js.map",
     "787.bfbd36d2.chunk.js.map": "/Sharon-Ft/static/js/787.bfbd36d2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd760bed.css",
-    "static/js/main.0408db7a.js"
+    "static/css/main.89b1dc9b.css",
+    "static/js/main.c2f04afe.js"
   ]
 }
