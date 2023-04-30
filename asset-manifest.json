@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Sharon-Ft/static/css/main.89b1dc9b.css",
-    "main.js": "/Sharon-Ft/static/js/main.c2f04afe.js",
+    "main.css": "/Sharon-Ft/static/css/main.c49d540d.css",
+    "main.js": "/Sharon-Ft/static/js/main.63605cae.js",
     "static/js/787.bfbd36d2.chunk.js": "/Sharon-Ft/static/js/787.bfbd36d2.chunk.js",
     "static/media/bg-video.mp4": "/Sharon-Ft/static/media/bg-video.f3187c505a1ad36e5457.mp4",
     "static/media/IMG_20221127_152800.jpg": "/Sharon-Ft/static/media/IMG_20221127_152800.c70bbc4a770fa8f222f7.jpg",
@@ -28,12 +28,12 @@
     "static/media/first.png": "/Sharon-Ft/static/media/first.78ed768287fd7d430556.png",
     "static/media/background-lines.png": "/Sharon-Ft/static/media/background-lines.2ba56da22d3b46b411b0.png",
     "index.html": "/Sharon-Ft/index.html",
-    "main.89b1dc9b.css.map": "/Sharon-Ft/static/css/main.89b1dc9b.css.map",
-    "main.c2f04afe.js.map": "/Sharon-Ft/static/js/main.c2f04afe.js.map",
+    "main.c49d540d.css.map": "/Sharon-Ft/static/css/main.c49d540d.css.map",
+    "main.63605cae.js.map": "/Sharon-Ft/static/js/main.63605cae.js.map",
     "787.bfbd36d2.chunk.js.map": "/Sharon-Ft/static/js/787.bfbd36d2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.89b1dc9b.css",
-    "static/js/main.c2f04afe.js"
+    "static/css/main.c49d540d.css",
+    "static/js/main.63605cae.js"
   ]
 }
