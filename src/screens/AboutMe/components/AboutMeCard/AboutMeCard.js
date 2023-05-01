@@ -4,9 +4,33 @@ import SELFIMAGES from "../../../../assets/pictures/SELFIMAGES";
 import $ from "jquery";
 
 const AboutMeCard = () => {
-  $("#xxx").click(function () {
-    $(".gallery-images").scrollLeft("50px");
+  const [sideFlag, setSideFlag] = React.useState(true);
+  const [leftPos, setLeftPos] = React.useState(0);
+  $(".gallery-images").ready(function () {
+    //var sideFlag = true;
+    //var leftPos = 0;
+    if (leftPos < 0) setLeftPos(0); //leftPos = 0;;
+    if (leftPos === 0) {
+      //sideFlag = true;
+      setSideFlag(true);
+      setLeftPos(leftPos + 100);
+      //leftPos += 100;
+      $(".gallery-images").animate({ scrollLeft: leftPos }, 2000);
+    }
+    if (leftPos > 0 && leftPos < 265 * (SELFIMAGES.length - 1)) {
+      $(".gallery-images").delay(1000).animate({ scrollLeft: leftPos }, 2000);
+      setLeftPos(sideFlag ? leftPos + 265 : leftPos - 265);
+      //sideFlag ? (leftPos += 265) : (leftPos -= 265);
+    }
+    if (leftPos > 1400) {
+      //sideFlag = false;
+      setSideFlag(false);
+      setLeftPos(leftPos - 265);
+      //leftPos -= 265;
+      $(".gallery-images").delay(1000).animate({ scrollLeft: leftPos }, 2000);
+    } /// <<<-----
   });
+
   return (
     <div className="card">
       <div className="card-title">
@@ -17,7 +41,7 @@ const AboutMeCard = () => {
           <div className="gallery-images">
             {SELFIMAGES.map((image, index) => {
               return (
-                <div id="xxx" className="gallery-image" key={index}>
+                <div id={`ga_i${index}`} className="gallery-image" key={index}>
                   <img src={image} alt="try realod" />
                 </div>
               );
