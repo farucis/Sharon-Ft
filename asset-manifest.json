@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Sharon-Ft/static/css/main.e9478d2d.css",
+    "main.css": "/Sharon-Ft/static/css/main.e2a4a7f6.css",
     "main.js": "/Sharon-Ft/static/js/main.cf7c4963.js",
     "static/js/787.bfbd36d2.chunk.js": "/Sharon-Ft/static/js/787.bfbd36d2.chunk.js",
     "static/media/bg-video.mp4": "/Sharon-Ft/static/media/bg-video.f3187c505a1ad36e5457.mp4",
@@ -28,12 +28,12 @@
     "static/media/first.png": "/Sharon-Ft/static/media/first.78ed768287fd7d430556.png",
     "static/media/background-lines.png": "/Sharon-Ft/static/media/background-lines.2ba56da22d3b46b411b0.png",
     "index.html": "/Sharon-Ft/index.html",
-    "main.e9478d2d.css.map": "/Sharon-Ft/static/css/main.e9478d2d.css.map",
+    "main.e2a4a7f6.css.map": "/Sharon-Ft/static/css/main.e2a4a7f6.css.map",
     "main.cf7c4963.js.map": "/Sharon-Ft/static/js/main.cf7c4963.js.map",
     "787.bfbd36d2.chunk.js.map": "/Sharon-Ft/static/js/787.bfbd36d2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e9478d2d.css",
+    "static/css/main.e2a4a7f6.css",
     "static/js/main.cf7c4963.js"
   ]
 }
