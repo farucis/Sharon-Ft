@@ -4,32 +4,30 @@ import SELFIMAGES from "../../../../assets/pictures/SELFIMAGES";
 import $ from "jquery";
 
 const AboutMeCard = () => {
-  const [sideFlag, setSideFlag] = React.useState(true);
-  const [leftPos, setLeftPos] = React.useState(0);
   $(".gallery-images").ready(function () {
-    //var sideFlag = true;
-    //var leftPos = 0;
-    if (leftPos < 0) setLeftPos(0); //leftPos = 0;;
-    if (leftPos === 0) {
-      //sideFlag = true;
-      setSideFlag(true);
-      setLeftPos(leftPos + 100);
-      //leftPos += 100;
-      $(".gallery-images").animate({ scrollLeft: leftPos }, 2000);
-    }
-    if (leftPos > 0 && leftPos < 265 * (SELFIMAGES.length - 1)) {
-      $(".gallery-images").delay(1000).animate({ scrollLeft: leftPos }, 2000);
-      setLeftPos(sideFlag ? leftPos + 265 : leftPos - 265);
-      //sideFlag ? (leftPos += 265) : (leftPos -= 265);
-    }
-    if (leftPos > 1400) {
-      //sideFlag = false;
-      setSideFlag(false);
-      setLeftPos(leftPos - 265);
-      //leftPos -= 265;
-      $(".gallery-images").delay(1000).animate({ scrollLeft: leftPos }, 2000);
-    } /// <<<-----
-  });
+    var sideFlag = true;
+    var leftPos = 0;
+    setInterval(() => {
+      if (leftPos < 0) {
+        leftPos = 0;
+        $(".gallery-images").delay(800).animate({ scrollLeft: leftPos }, 2000);
+      }
+      if (leftPos === 0) {
+        sideFlag = true;
+        leftPos += 100;
+        $(".gallery-images").animate({ scrollLeft: leftPos }, 2000);
+      }
+      if (leftPos > 0 && leftPos < 266 * (SELFIMAGES.length - 1)) {
+        $(".gallery-images").delay(800).animate({ scrollLeft: leftPos }, 2000);
+        sideFlag ? (leftPos += 266) : (leftPos -= 266);
+      }
+      if (leftPos > 266 * (SELFIMAGES.length - 1)) {
+        sideFlag = false;
+        leftPos -= 266;
+        $(".gallery-images").delay(200).animate({ scrollLeft: leftPos }, 2000);
+      } /// <<<-----
+    });
+  }, 50);
 
   return (
     <div className="card">
@@ -38,7 +36,7 @@ const AboutMeCard = () => {
       </div>
       <div className="card-contact">
         <div className="contact-gallery">
-          <div className="gallery-images">
+          <div className="gallery-images" id="galleryImages">
             {SELFIMAGES.map((image, index) => {
               return (
                 <div id={`ga_i${index}`} className="gallery-image" key={index}>
