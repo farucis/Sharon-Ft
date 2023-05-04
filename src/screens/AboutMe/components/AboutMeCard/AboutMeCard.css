@@ -41,7 +41,7 @@
 .gallery-images {
   display: flex;
   position: absolute;
-  overflow-x: scroll;
+  overflow-x: hidden;
   width: 610px;
   margin-top: 14px;
   left: -30px;

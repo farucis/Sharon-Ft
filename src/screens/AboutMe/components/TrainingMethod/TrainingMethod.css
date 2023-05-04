@@ -54,9 +54,14 @@
   display: flex;
   width: 100%;
   flex-direction: row-reverse;
-  color: white;
   font-size: larger;
+  transform: scale(0.94);
 }
+.stages-title span {
+  opacity: 0;
+  filter: blur(4px);
+}
+
 h1 {
   color: white;
 }
@@ -82,7 +87,7 @@ h1 {
 .stage-card-title {
 }
 .stage-card-text {
-  font-size:14px;
+  font-size: 14px;
 }
 
 @keyframes fade-in-left {
@@ -116,4 +121,15 @@ h1 {
   }
 }
 
+@keyframes scale {
+  100% {
+    transform: scale(1);
+  }
+}
 
+@keyframes fade-in-blur {
+  100% {
+    opacity: 1;
+    filter: blur(0);
+  }
+}

@@ -2,6 +2,8 @@ import React from "react";
 import "./TrainingMethod.css";
 import IMAGES from "../../../../assets/pictures/IMAGES";
 import $ from "jquery";
+import StageCard from "./components/StageCard";
+import { scrollToTrainingOffset } from "./components/Function";
 
 const stagesDB = [
   {
@@ -25,50 +27,7 @@ const stagesDB = [
 ];
 
 const TrainingMethod = () => {
-  $(window).scroll(function () {
-    var scrollTop = $(this).scrollTop();
-
-    var training_method = Math.round(
-      $(".training-method-container").height() - 1
-    );
-    $(".png-image-text").css({
-      animation: function () {
-        if (scrollTop >= training_method - 50)
-          return "fade-in-left 0.7s linear both";
-        else {
-          return "none";
-        }
-      },
-    });
-    // $(".self-image-container button").delay(300).animate("fade-in", 700);
-    $(".self-image-container button").css({
-      animation: function () {
-        if (scrollTop >= training_method - 50)
-          return "fade-in 0.7s 2.8s linear both";
-        else {
-          return "none";
-        }
-      },
-    });
-
-    var stages = Math.round($(".method-stages").height() - 1);
-    var ad = function (dealy) {
-      if (scrollTop >= training_method + stages - 50)
-        return `fade-in-up 0.7s ${dealy}s linear both`;
-      else {
-        return "none";
-      }
-    };
-    $("#s1").css({
-      animation: ad(0.7),
-    });
-    $("#s2").css({
-      animation: ad(1.4),
-    });
-    $("#s3").css({
-      animation: ad(2.1),
-    });
-  });
+  $(window).scroll(scrollToTrainingOffset);
   return (
     <div className="training-method-container">
       <div className="self-image-container">
@@ -87,7 +46,16 @@ const TrainingMethod = () => {
       </div>
       <div className="method-stages-container">
         <div className="stages-title">
-          <h1> ?למה אני בטוחה שזה יעבוד גם לך</h1>
+          <h1>
+            <span>? </span>
+            <span>למה </span>
+            <span>אני </span>
+            <span>בטוחה </span>
+            <span>שזה </span>
+            <span>יעבוד </span>
+            <span>גם </span>
+            <span>לך</span>
+          </h1>
         </div>
         <div className="method-stages">
           {stagesDB.map((item, index) => {
@@ -108,17 +76,3 @@ const TrainingMethod = () => {
 };
 
 export default TrainingMethod;
-
-const StageCard = (props) => {
-  return (
-    <div id={props.index} className={"stage-card-container"}>
-      <div className="stage-card-circle-image">
-        <img src={props.imageUrl} alt="try realod" />
-      </div>
-      <div className="stage-card-title">
-        <h1>{props.title}</h1>
-      </div>
-      <div className="stage-card-text">{props.text}</div>
-    </div>
-  );
-};
