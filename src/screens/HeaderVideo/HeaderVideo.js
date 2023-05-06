@@ -1,8 +1,6 @@
 import React from "react";
 import "./HeaderVideo.css";
-import videoBg from "../../../../assets/videos/bg-video.mp4";
-//import videoBg from "../../../../assets/videos/20230123_165342.mp4";
-//import Logo from "../../../../assets/pictures/logo/first.png";
+import videoBg from "../../assets/videos/bg-video.mp4";
 
 const HeaderVideo = () => {
   return (

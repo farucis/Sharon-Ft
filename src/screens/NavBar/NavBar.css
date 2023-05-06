@@ -61,14 +61,12 @@ body {
 }
 .sidebarMenuInner :hover {
   background: rgb(180, 80, 158) 100%;
-  font-size: 20px;
+  font-size: 25px;
   transition: all 200ms ease-in;
-
 }
 .sidebarMenuInner li span:hover {
   font-size: 14px;
   color: rgba(255, 255, 255, 0.5);
-
 }
 
 .sidebarMenuInner li {
@@ -183,7 +181,7 @@ input[type="checkbox"]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 }
 
 .n-logo {
-  background-image: url(../../../../assets/pictures/logo/second.png);
+  background-image: url(../../assets/pictures/logo/second.png);
   height: 53px;
   width: 53px;
   background-size: cover;
@@ -194,7 +192,6 @@ input[type="checkbox"]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 }
 
 @media screen and (max-width: 1110px) {
-
   .sidebarMenuInner :hover {
     font-size: 20px;
     transition: all 120ms ease-in;

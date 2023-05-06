@@ -1,5 +1,5 @@
 import React from "react";
-import TrainLevales from "../TrainLevales/components/TrainLevales";
+import TrainLevales from "./components/TrainLevales/TrainLevales";
 
 const TrainingPackages = () => {
   return (
