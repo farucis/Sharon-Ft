@@ -36,6 +36,7 @@
   font-size: 28px;
   color: white;
   width: 420px;
+  opacity: 0;
 }
 
 .self-image-container button {

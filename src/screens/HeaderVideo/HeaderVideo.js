@@ -15,6 +15,7 @@ const HeaderVideo = () => {
           muted
           autoplay
           playsinline
+          preload="auto"
           src="${videoBg}"
 ƒ        />,
       `,
