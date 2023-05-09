@@ -5,19 +5,25 @@ import $ from "jquery";
 import IMAGES from "../../assets/pictures/IMAGES";
 import SlidebarGallery from "./components/SlidebarGallery";
 import { loadImagesByOffset } from "./components/Function";
+
 const CustomerProcesses = () => {
+  const [isOpen, setIsOpen] = React.useState(false);
+  const [newImagesArr, setNewImagesArr] = React.useState([]);
+
   $(window).ready(() => {
-    $(".slidebar-gallery-container").hide();
+    if (!isOpen) $(".slidebar-gallery-container").hide();
   });
   $(window).scroll(loadImagesByOffset);
 
-  const newImagesArr = [];
-  const openGalleryHandler = (el) => {
-    console.log(el.target.src);
-    for (let index = 0; index < IMAGES.length; index++) {
-      if (IMAGES[index] === el.target.src) newImagesArr.append(IMAGES[index]);
+  const openGalleryHandler = (index) => {
+    var tempArr = [...IMAGES];
+    for (let i = 0; i <= index; i++) {
+      tempArr.push(tempArr.shift());
     }
+    console.log(tempArr);
+    setIsOpen(true);
     $(".slidebar-gallery-container").show();
+    setNewImagesArr([...tempArr]);
   };
 
   return (
@@ -30,12 +36,19 @@ const CustomerProcesses = () => {
         {IMAGES.map((image, index) => {
           return (
             <div className="image-container" key={index}>
-              <img src={image} alt="try realod" onClick={openGalleryHandler} />
+              <img
+                src={image}
+                alt="try realod"
+                onClick={() => openGalleryHandler(index)}
+              />
             </div>
           );
         })}
       </div>
-      <SlidebarGallery images={newImagesArr} />
+      <SlidebarGallery
+        images={newImagesArr}
+        setNewImagesArr={setNewImagesArr}
+      />
     </div>
   );
 };

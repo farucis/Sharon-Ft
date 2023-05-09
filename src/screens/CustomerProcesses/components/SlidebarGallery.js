@@ -8,12 +8,13 @@ const SlidebarGallery = (props) => {
     // if the target of the click isn't the container nor a descendant of the container
     if (!container.is(e.target) && container.has(e.target).length === 0) {
       $(".slidebar-gallery-container").hide();
+      props.setNewImagesArr([]);
     }
   });
   return (
     <div className="slidebar-gallery-container">
       <ul className="Gallery-container">
-        {props.images.map((image, index=props.i) => {
+        {props.images.map((image, index = props.i) => {
           return (
             <div key={index}>
               <input
@@ -21,7 +22,7 @@ const SlidebarGallery = (props) => {
                 type="radio"
                 name="radio-btn"
                 id={`img-${index}`}
-                checked
+                defaultChecked
               />
               <li id="img-container">
                 <div id="img-inner">
@@ -40,7 +41,10 @@ const SlidebarGallery = (props) => {
                 </label>
                 <label
                   className="sb-bignav"
-                  onClick={() => $(".slidebar-gallery-container").hide()}
+                  onClick={() => {
+                    $(".slidebar-gallery-container").hide();
+                    props.setNewImagesArr([]);
+                  }}
                   title="סגור"
                 >
                   &#x78;
