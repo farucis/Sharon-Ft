@@ -59,12 +59,6 @@ li {
   object-fit: contain;
 }
 
-#img-inner:nth-of-type(1) {
-  background-image: url("../../../assets/pictures/logo/second.png");
-  object-fit: fill;
-  object-position: center;
-}
-
 #img-inner:hover ~ label.sb-bignav {
   opacity: 0.5;
 }
