@@ -177,7 +177,10 @@ input[type="checkbox"]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
   right: 100px;
 }
 .contact-buttones a {
-  color: aliceblue;
+  color: white;
+}
+.contact-buttones a:hover {
+  color: rgb(224, 3, 124);
 }
 
 .n-logo {

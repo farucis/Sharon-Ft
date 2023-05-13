@@ -1,0 +1,21 @@
+.contactUs-container {
+  background-color: rgba(245, 235, 241, 0.74);
+  border-top: 1px solid;
+  padding-top: 10px;
+}
+
+.contactUs-logo {
+  background-image: url(../../assets/pictures/logo/text-logo.png);
+  height: 53px;
+  width: 120px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  width: 90%;
+  margin-left: 5%;
+}
+
+.contactUs-logo:hover {
+  animation: shake-left-right 0.8s linear both infinite;
+}

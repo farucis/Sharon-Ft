@@ -1,0 +1,66 @@
+.contactUs-icons-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contactUs-icon-card {
+  background-color: rgb(219, 154, 206);
+
+  border-radius: 50%;
+  padding: 30px;
+  margin: 30px;
+  height: 120px;
+  width: 120px;
+}
+
+.contactUs-icon-card h3 {
+  font-size: 21px;
+  height: 44px;
+  text-align: center;
+}
+.contactUs-icon-card a {
+  font-size: 38px;
+  cursor: pointer;
+  color: white;
+}
+
+.contactUs-icon-card a:hover {
+  color: rgb(224, 3, 124);
+}
+
+@media screen and (max-width: 790px) {
+  .contactUs-icon-card {
+    padding: 24px;
+    height: 100px;
+    width: 100px;
+  }
+  .contactUs-icon-card h3 {
+    font-size: 19px;
+    height: 34px;
+  }
+  .contactUs-icon-card a {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .contactUs-icon-card {
+    padding: 20px;
+    margin: 18px;
+    height: 80px;
+    width: 80px;
+  }
+  .contactUs-icon-card h3 {
+    font-size: 15px;
+    height: 28px;
+  }
+  .contactUs-icon-card a {
+    font-size: 23px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .contactUs-icon-card {
+    margin: 8px;
+  }
+}

@@ -1,5 +1,5 @@
 import React from "react";
-import { FaWaze, FaInstagramSquare, FaPhoneSquare } from "react-icons/fa";
+import { FaWaze, FaInstagram, FaWhatsapp } from "react-icons/fa";
 
 const NavBarHeader = () => {
   return (
@@ -18,14 +18,14 @@ const NavBarHeader = () => {
           rel="noreferrer"
           href="https://www.instagram.com/invites/contact/?i=x7ikcv5pitc5&utm_content=uf68p%E2%80%8E%E2%80%8F"
         >
-          <FaInstagramSquare />
+          <FaInstagram />
         </a>
         <a
           target="_blank"
           rel="noreferrer"
           href="https://wa.me/message/EZX2HIMY3WDRM1"
         >
-          <FaPhoneSquare />
+          <FaWhatsapp />
         </a>
       </div>{" "}
     </div>

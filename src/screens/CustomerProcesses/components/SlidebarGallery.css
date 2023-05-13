@@ -8,7 +8,7 @@ li {
   position: fixed;
   top: 0;
   z-index: 99;
-  width: 99vw;
+  width: 100vw;
   height: 100vh;
   display: flex;
   align-items: center;
@@ -115,3 +115,26 @@ label[title="סגור"] {
   line-height: 100px;
 }
 
+@media screen and (max-width: 1000px) {
+  .Gallery-container {
+    width: 90%;
+    height: 70%;
+  }
+  #img-inner {
+    width: 80%;
+    height: 100%;
+  }
+  label[title="סגור"] {
+    visibility: hidden;
+  }
+  label[title="הקודם"] {
+    left: 0px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+
+.sb-bignav {
+  opacity: 0.01;
+}
+}

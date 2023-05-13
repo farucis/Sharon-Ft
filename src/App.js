@@ -6,7 +6,6 @@ import CustomerProcesses from "./screens/CustomerProcesses/CustomerProcesses";
 import HeaderVideo from "./screens/HeaderVideo/HeaderVideo";
 import NavBar from "./screens/NavBar/NavBar";
 import TrainingPackages from "./screens/TrainingPackages/TrainingPackages";
-import CloseForUpdates from "./screens/CloseForUpdates/CloseForUpdates"
 
 function App() {
   return (
@@ -15,7 +14,6 @@ function App() {
       <HeaderVideo />
       <AboutMe />
       <CustomerProcesses />
-      <CloseForUpdates />
       <AboutStudio />
       <TrainingPackages />
       <ContactUs />

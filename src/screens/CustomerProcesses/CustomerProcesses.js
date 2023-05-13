@@ -12,6 +12,7 @@ const CustomerProcesses = () => {
 
   $(window).ready(() => {
     if (!isOpen) $(".slidebar-gallery-container").hide();
+    else $(".slidebar-gallery-container").show();
   });
   $(window).scroll(loadImagesByOffset);
 
@@ -20,10 +21,8 @@ const CustomerProcesses = () => {
     for (let i = 0; i <= index; i++) {
       tempArr.push(tempArr.shift());
     }
-    console.log(tempArr);
-    setIsOpen(true);
-    $(".slidebar-gallery-container").show();
     setNewImagesArr([...tempArr]);
+    setIsOpen(true);
   };
 
   return (
@@ -48,6 +47,7 @@ const CustomerProcesses = () => {
       <SlidebarGallery
         images={newImagesArr}
         setNewImagesArr={setNewImagesArr}
+        setIsOpen={setIsOpen}
       />
     </div>
   );

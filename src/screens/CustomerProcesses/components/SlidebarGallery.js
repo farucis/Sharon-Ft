@@ -7,14 +7,14 @@ const SlidebarGallery = (props) => {
     var container = $(".Gallery-container");
     // if the target of the click isn't the container nor a descendant of the container
     if (!container.is(e.target) && container.has(e.target).length === 0) {
-      $(".slidebar-gallery-container").hide();
+      props.setIsOpen(false);
       props.setNewImagesArr([]);
     }
   });
   return (
     <div className="slidebar-gallery-container">
       <ul className="Gallery-container">
-        {props.images.map((image, index = props.i) => {
+        {props.images.map((image, index) => {
           return (
             <div key={index}>
               <input
@@ -42,7 +42,7 @@ const SlidebarGallery = (props) => {
                 <label
                   className="sb-bignav"
                   onClick={() => {
-                    $(".slidebar-gallery-container").hide();
+                    props.setIsOpen(false);
                     props.setNewImagesArr([]);
                   }}
                   title="סגור"
