@@ -10,7 +10,7 @@
   width: 1160px;
   min-height: 560px;
   box-sizing: border-box;
-  transition: 200ms ease-in-out;
+  transition: all 200ms ease-in-out;
 }
 .card-title {
   display: flex;
@@ -60,4 +60,84 @@
 .gallery-scrollbar {
   display: flex;
   width: 100%;
+}
+
+@media screen and (max-width: 1240px) {
+  .card {
+    width: 900px;
+    min-height: 560px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .card {
+    width: 600px;
+    min-height: 760px;
+  }
+  .card-contact {
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+  .contact-text {
+    
+    padding-top: 410px;
+  }
+  .gallery-images {
+    left: 2px;
+    margin: 0;
+    width: 596px;
+
+  }
+}
+@media screen and (max-width: 1000px) {
+  .card {
+    width: 600px;
+    min-height: 760px;
+  }
+  .card-contact {
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+  .contact-text {
+    
+    padding-top: 410px;
+  }
+  .gallery-images {
+    left: 2px;
+    margin: 0;
+    width: 596px;
+
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .card {
+    max-width: 380px;
+    max-width: 460px;
+    min-height: 560px;
+  }
+
+  .gallery-images {
+    left: 2px;
+    margin: 0;
+    width: 456px;
+
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .card {
+    max-width: 340px;
+    max-width: 400px;
+    min-height: 560px;
+  }
+
+  .gallery-images {
+    left: 2px;
+    margin: 0;
+    width: 396px;
+
+  }
 }

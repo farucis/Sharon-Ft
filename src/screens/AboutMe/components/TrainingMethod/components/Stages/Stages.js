@@ -1,4 +1,6 @@
 import React from "react";
+import "./Stages.css";
+
 import StageCard from "../StageCard";
 import IMAGES from "../../../../../../assets/pictures/IMAGES";
 

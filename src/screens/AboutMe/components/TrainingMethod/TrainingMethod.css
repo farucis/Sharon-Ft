@@ -43,52 +43,7 @@
   --color: rgb(255, 0, 204);
   color: rgb(255, 255, 255);
   font-weight: bold;
-}
-
-.method-stages-container {
-  display: flex;
-  flex-direction: column;
-  width: 1300px;
-  padding: 10px;
-}
-.stages-title {
-  display: flex;
-  width: 100%;
-  flex-direction: row-reverse;
-  font-size: larger;
-  transform: scale(0.94);
-}
-.stages-title span {
   opacity: 0;
-  filter: blur(4px);
-}
-
-h1 {
-  color: white;
-}
-
-.method-stages {
-  display: flex;
-}
-
-.stage-card-container {
-  background-color: rgba(204, 0, 255, 0.663);
-  margin: 0 20px;
-  width: 400px;
-  height: 300px;
-  border-radius: 20px;
-  padding: 10px 4px;
-}
-
-.stage-card-circle-image img {
-  width: 110px;
-  height: 110px;
-  border-radius: 50%;
-}
-.stage-card-title {
-}
-.stage-card-text {
-  font-size: 14px;
 }
 
 @keyframes fade-in-left {
@@ -132,5 +87,33 @@ h1 {
   100% {
     opacity: 1;
     filter: blur(0);
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .self-image-container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .self-image-container {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .self-image-png {
+    width: 650px;
+    height: 450px;
+    left: -100px;
+    margin-top: -40px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .self-image-png {
+    width: 600px;
+    height: 450px;
+    left: -100px;
   }
 }

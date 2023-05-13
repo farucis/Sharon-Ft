@@ -20,9 +20,9 @@ export const addAnimationToClass = (
 };
 
 export const scrollToTrainingOffset = () => {
-  var trainingMethodHeight = Math.round(
-    $(".training-method-container").height() - 1
-  );
+  const trainingMethodHeight =
+    $(".png-image-text").offset().top - $(".png-image-text").height() * 2;
+
   addAnimationToClass(
     ".png-image-text",
     "fade-in-left",
@@ -32,7 +32,7 @@ export const scrollToTrainingOffset = () => {
   addAnimationToClass(
     ".self-image-container button",
     "fade-in",
-    2.8,
+    1,
     trainingMethodHeight
   );
   var stages = Math.round($(".method-stages").height());
@@ -56,7 +56,7 @@ export const scrollToTrainingOffset = () => {
   for (let i = 0; i < 3; i++)
     addAnimationToClass(
       `#s${i + 1}`,
-      "fade-in-up",
+      window.innerWidth > 1000 ? "fade-in-up" : "fade-in-left",
       0.7 * i + 1,
       trainingMethodHeight + stages
     );

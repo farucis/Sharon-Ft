@@ -6,10 +6,12 @@ const StageCard = (props) => {
       <div className="stage-card-circle-image">
         <img src={props.imageUrl} alt="try realod" />
       </div>
-      <div className="stage-card-title">
-        <h1>{props.title}</h1>
+      <div className="stage-card-contant">
+        <div className="stage-card-title">
+          <h1>{props.title}</h1>
+        </div>
+        <div className="stage-card-text">{props.text}</div>
       </div>
-      <div className="stage-card-text">{props.text}</div>
     </div>
   );
 };
