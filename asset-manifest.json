@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Sharon-Ft/static/css/main.adcc830e.css",
-    "main.js": "/Sharon-Ft/static/js/main.f06c6420.js",
+    "main.css": "/Sharon-Ft/static/css/main.b0958e91.css",
+    "main.js": "/Sharon-Ft/static/js/main.790a5340.js",
     "static/js/787.bfbd36d2.chunk.js": "/Sharon-Ft/static/js/787.bfbd36d2.chunk.js",
     "static/media/bg-video.mp4": "/Sharon-Ft/static/media/bg-video.eb7f16f6e73a66156eaa.mp4",
     "static/media/IMG_20221127_152800.jpg": "/Sharon-Ft/static/media/IMG_20221127_152800.c70bbc4a770fa8f222f7.jpg",
@@ -28,12 +28,12 @@
     "static/media/text-logo.png": "/Sharon-Ft/static/media/text-logo.6455e2d565f3c79ab2d6.png",
     "static/media/background-lines.png": "/Sharon-Ft/static/media/background-lines.2ba56da22d3b46b411b0.png",
     "index.html": "/Sharon-Ft/index.html",
-    "main.adcc830e.css.map": "/Sharon-Ft/static/css/main.adcc830e.css.map",
-    "main.f06c6420.js.map": "/Sharon-Ft/static/js/main.f06c6420.js.map",
+    "main.b0958e91.css.map": "/Sharon-Ft/static/css/main.b0958e91.css.map",
+    "main.790a5340.js.map": "/Sharon-Ft/static/js/main.790a5340.js.map",
     "787.bfbd36d2.chunk.js.map": "/Sharon-Ft/static/js/787.bfbd36d2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.adcc830e.css",
-    "static/js/main.f06c6420.js"
+    "static/css/main.b0958e91.css",
+    "static/js/main.790a5340.js"
   ]
 }
