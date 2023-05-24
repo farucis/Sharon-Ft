@@ -4,6 +4,7 @@
   width: 100%;
   align-items: center;
   justify-content: center;
+  padding: 5px 0 20px 0;
 }
 .contact-input {
   width: 65%;
@@ -24,6 +25,7 @@
   padding: 10px 16px 10px 16px;
   margin: 5px 0;
   border-width: 1px;
+  text-align: right;
 }
 .contact-input textarea {
   display: flex;
@@ -38,6 +40,7 @@
   font-weight: 300;
   padding: 10px 16px 30px 14px;
   margin: 5px 0;
+  text-align: right;
 }
 .contact-input h1 {
   color: var(--black);
@@ -55,6 +58,15 @@
   background-color: rgb(228, 204, 233);
   color: #920186;
 }
+
+.contact-input input[name="user_email"]:focus {
+  text-align: left;
+}
+
+.contact-input .btn {
+  margin-top: 10px;
+  width: 80%;
+}
 @media screen and (max-width: 940px) {
   .contact-input {
     width: 80%;
@@ -64,5 +76,18 @@
 @media screen and (max-width: 450px) {
   .contact-input {
     width: 90%;
+  }
+}
+
+@keyframes zoom-in-right{
+  from{
+      opacity: 0;
+      transform: scale3d(0.1, 0.1, 0.1) translate3d(1000px, 0, 0);
+      animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  70%{
+      opacity: 1;
+      transform: scale3d(0.5, 0.5, 0.5) translate3d(-10px, 0, 0);
+      animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1);
   }
 }

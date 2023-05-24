@@ -18,13 +18,14 @@
   height: 44px;
   text-align: center;
 }
-.contactUs-icon-card a {
+.contactUs-icons-container a {
   font-size: 38px;
   cursor: pointer;
   color: white;
+  text-decoration: none;
 }
 
-.contactUs-icon-card a:hover {
+.contactUs-icons-container a:hover {
   color: rgb(224, 3, 124);
 }
 
@@ -54,7 +55,7 @@
     font-size: 15px;
     height: 28px;
   }
-  .contactUs-icon-card a {
+  .contactUs-icons-container a {
     font-size: 23px;
   }
 }

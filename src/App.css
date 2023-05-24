@@ -1,7 +1,16 @@
+:root {
+  --light-pink: rgb(255, 184, 215);
+  --light-blue-button: rgb(218, 156, 205);
+  --dark-pink-button: rgb(169, 33, 142);
+}
+
+.end-page {
+  height: 80px;
+}
+
 .App {
   text-align: center;
-  background-color: rgb(169, 33, 142);
-
+  background-color: var(--dark-pink-button);
 }
 
 .App-logo {
@@ -15,13 +24,13 @@ video {
   object-fit: cover;
 }
 button {
-  background-color: rgb(169, 33, 142);
+  background-color: var(--dark-pink-button);
 }
 
 li {
   list-style-type: none;
 }
-/* CSS */
+
 button {
   --b: 3px; /* border thickness */
   --s: 0.45em; /* size of the corner */
@@ -59,25 +68,4 @@ button:focus-visible {
 button:active {
   background: var(--color);
   color: #fff;
-}
-
-
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
