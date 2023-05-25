@@ -25,25 +25,22 @@ export const sendEmail = (e) => {
 export const fadeInEmailCard = () => {
   const height =
     $(".contactUs-icons-container").offset().top -
-    $(".contactUs-container").height();
+    $(".contactUs-icons-container").height();
 
-  if ($(window).scrollTop() >= height)
-    for (let i = 0; i < 3; i++)
-      addAnimationToClass(".contact-input", "zoom-in-right", 0.6, height, 1);
+  for (let i = 0; i < 3; i++)
+    addAnimationToClass(".contact-input", "bounceInUp", 0.6, height, 1);
 };
 
 export const fadeInIcons = () => {
   const height =
     $(".contactUs-icons-container").offset().top -
-    $(".contactUs-container").height() -
-    $(".contactUs-icons-container").height();
+    $(".contactUs-container").height();
 
-  if ($(window).scrollTop() > height)
-    for (let i = 0; i < 3; i++)
-      addAnimationToClass(
-        `.contactUs-icons-container a:nth-child(${i + 1})`,
-        "fade-in",
-        0.3 * (i + 1),
-        height
-      );
+  for (let i = 0; i < 3; i++)
+    addAnimationToClass(
+      `.contactUs-icons-container a:nth-child(${i + 1})`,
+      "fade-in",
+      0.3 * (i + 1),
+      height
+    );
 };
