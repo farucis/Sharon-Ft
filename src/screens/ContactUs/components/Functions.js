@@ -27,7 +27,7 @@ export const fadeInEmailCard = () => {
     $(".contactUs-icons-container").offset().top -
     $(".contactUs-container").height();
 
-  if ($(window).scrollTop() <= height)
+  if ($(window).scrollTop() >= height)
     for (let i = 0; i < 3; i++)
       addAnimationToClass(".contact-input", "zoom-in-right", 0.6, height, 1);
 };
@@ -38,7 +38,7 @@ export const fadeInIcons = () => {
     $(".contactUs-container").height() -
     $(".contactUs-icons-container").height();
 
-  if ($(window).scrollTop() <= height)
+  if ($(window).scrollTop() > height)
     for (let i = 0; i < 3; i++)
       addAnimationToClass(
         `.contactUs-icons-container a:nth-child(${i + 1})`,

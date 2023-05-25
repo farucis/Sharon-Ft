@@ -1,11 +1,12 @@
 :root {
-  --light-pink: rgb(255, 184, 215);
-  --light-blue-button: rgb(218, 156, 205);
+  --light-pink: rgba(225, 184, 215);
+  --light-pink-button: rgb(218, 156, 205);
   --dark-pink-button: rgb(169, 33, 142);
+  --dark-pink-border: rgb(64, 11, 54);
 }
 
 .end-page {
-  height: 80px;
+  height: 60px;
 }
 
 .App {

@@ -17,7 +17,7 @@ function App() {
       <AboutStudio />
       <TrainingPackages />
       <ContactUs />
-      <div className="end-page" />
+      <section className="end-page" />
     </div>
   );
 }
