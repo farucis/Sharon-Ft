@@ -1,18 +1,10 @@
 import React from "react";
 import "./EmailInputArea.css";
 import $ from "jquery";
-import { fadeInEmailCard, sendEmail } from "../Functions";
+import { fadeInEmailCard, formHandler } from "../Functions";
 
 const EmailInputArea = () => {
   $(window).scroll(fadeInEmailCard);
-
-  const formHandler = (e) => {
-    !e.target.name.value ||
-    !e.target.user_email.value ||
-    !e.target.message.value
-      ? e.preventDefault()
-      : sendEmail(e);
-  };
 
   return (
     <div className="contact-input-container">

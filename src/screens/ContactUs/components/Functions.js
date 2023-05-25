@@ -3,6 +3,14 @@ import emailjs from "emailjs-com";
 import { serviceID, templateID, userID } from "./EmailInputArea/emailjsKey";
 import { addAnimationToClass } from "../../AboutMe/components/TrainingMethod/components/Function";
 
+export const formHandler = (e) => {
+  e.target.name.value.length > 2 &&
+  e.target.user_email.value.length > 2 &&
+  e.target.message.value.length > 2
+    ? sendEmail(e)
+    : e.preventDefault();
+};
+
 export const sendEmail = (e) => {
   emailjs.sendForm(serviceID, templateID, e.target, userID).then(
     (result) => {
