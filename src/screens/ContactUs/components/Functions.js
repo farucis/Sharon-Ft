@@ -27,12 +27,6 @@ export const fadeInEmailCard = () => {
     $(".contactUs-icons-container").offset().top -
     $(".contact-input-container").height();
 
-    console.log($(".contactUs-icons-container").offset().top);
-    console.log($(".contactUs-icons-container").height());
-    console.log($(".contact-input-container").offset().top);
-    console.log($(".contact-input-container").height());
-    console.log($(window).scrollTop());
-
   for (let i = 0; i < 3; i++)
     addAnimationToClass(".contact-input", "bounceInUp", 0.6, height, 1);
 };

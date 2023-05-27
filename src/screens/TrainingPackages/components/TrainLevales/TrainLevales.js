@@ -6,7 +6,7 @@ const TrainLevales = () => {
     <ul className="tilesWrap">
       {trainLevalesDB.map((obj) => {
         return (
-          <li>
+          <li key={obj.id}>
             <h2>0{obj.id}</h2>
             <h3>{obj.title}</h3>
             <p>{obj.info}</p>
