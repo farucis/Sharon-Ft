@@ -11,12 +11,12 @@ const NavBar = () => {
   $(window).scroll(opacityByScroling);
 
   return (
-    <div>
+    <section id='navBar'>
       <NavBarHeader />
       <MenuIcon />
       <label className="overlyy"></label>
       <SideBarMenu />
-    </div>
+    </section>
   );
 };
 

@@ -1,24 +1,22 @@
 import React from "react";
 import "./HeaderVideo.css";
+
 import videoBg from "../../assets/videos/bg-video.mp4";
 
 const HeaderVideo = () => {
   return (
-    <div className="hader-container">
+    <section className="hader-container">
       <div className="overlay" />
       <div
-      className="video-container"
+        className="video-container"
         dangerouslySetInnerHTML={{
-          __html: `
-        <video
+          __html: `<video
           loop
           muted
           autoplay
           playsinline
           preload="auto"
-          src="${videoBg}"
-ƒ        />,
-      `,
+          src="${videoBg}"/>`,
         }}
       />
       <div className="contant-container">
@@ -28,7 +26,7 @@ const HeaderVideo = () => {
           <button> לאימון הבא </button>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

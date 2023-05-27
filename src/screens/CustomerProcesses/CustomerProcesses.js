@@ -26,7 +26,7 @@ const CustomerProcesses = () => {
   };
 
   return (
-    <div id="cusPro" className="customer-processes-container">
+    <section id="cusPro" className="customer-processes-container">
       <div className="title-container">
         <h1> תגובות של מתאמנות</h1>
       </div>
@@ -49,7 +49,7 @@ const CustomerProcesses = () => {
         setNewImagesArr={setNewImagesArr}
         setIsOpen={setIsOpen}
       />
-    </div>
+    </section>
   );
 };
 
