@@ -1,3 +1,8 @@
+.tilesWrap li button {
+  all: unset;
+  cursor: pointer;
+}
+
 .tilesWrap {
   padding: 0;
   margin: 50px auto;
@@ -18,6 +23,7 @@
   background: var(--light-pink);
   border: 1px solid var(--dark-pink-border);
   text-align: left;
+  z-index: 0;
 }
 .tilesWrap li h2 {
   font-size: 114px;
@@ -43,7 +49,7 @@
 .tilesWrap li button {
   background: transparent;
   border: 1px solid var(--dark-pink-border);
-  padding: 10px 20px;
+  padding: 10px 30px;
   color: var(--dark-pink-border);
   border-radius: 3px;
   position: relative;
@@ -52,13 +58,15 @@
   opacity: 0;
   cursor: pointer;
   overflow: hidden;
+  font-size: 18px;
+  z-index: 2;
 }
 .tilesWrap li button:before {
   content: "";
   position: absolute;
   height: 100%;
   width: 120%;
-  background: #b7b7b7;
+  background: var(--light-pink);
   top: 0;
   opacity: 0;
   left: -140px;
@@ -72,7 +80,11 @@
 }
 .tilesWrap li button:hover {
   color: #262a2b;
+  border: 1px solid var(--dark-pink-button);
+  outline: 3px solid var(--dark-pink-button);
+  border-radius: 0px;
 }
+
 .tilesWrap li button:hover:before {
   left: 0;
   opacity: 1;
@@ -89,8 +101,8 @@
   left: -2px;
   right: -2px;
   bottom: -2px;
+  background: var(--light-pink);
   z-index: -1;
-  background: #fff;
   transform: skew(2deg, 2deg);
 }
 .tilesWrap li:after {
@@ -103,24 +115,20 @@
   background: rgba(255, 255, 255, 0.02);
 }
 .tilesWrap li:nth-child(1):before {
-  background: #c9ffbf;
-  background: -webkit-linear-gradient(to right, #ffafbd, #c9ffbf);
-  background: linear-gradient(to right, #ffafbd, #c9ffbf);
+  background: -webkit-linear-gradient(to right, #893eac, #e59dd8);
+  background: linear-gradient(to right, #893eac, #e59dd8);
 }
 .tilesWrap li:nth-child(2):before {
-  background: #f2709c;
-  background: -webkit-linear-gradient(to right, #ff9472, #f2709c);
-  background: linear-gradient(to right, #ff9472, #f2709c);
+  background: -webkit-linear-gradient(to right, #ff72f6, #f2709c);
+  background: linear-gradient(to right, #ff72f6, #f2709c);
 }
 .tilesWrap li:nth-child(3):before {
-  background: #c21500;
-  background: -webkit-linear-gradient(to right, #ffc500, #c21500);
-  background: linear-gradient(to right, #ffc500, #c21500);
+  background: -webkit-linear-gradient(to right, #b02edc, #f0afff);
+  background: linear-gradient(to right, #a246e3, #f0afff);
 }
 .tilesWrap li:nth-child(4):before {
-  background: #fc354c;
-  background: -webkit-linear-gradient(to right, #0abfbc, #fc354c);
-  background: linear-gradient(to right, #0abfbc, #fc354c);
+  background: -webkit-linear-gradient(to right, #de386f, #ff72f6);
+  background: linear-gradient(to right, #de386f, #ff72f6);
 }
 
 @media screen and (max-width: 1110px) {
