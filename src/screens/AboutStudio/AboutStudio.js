@@ -1,38 +1,19 @@
 import React from "react";
+import "./AboutStudio.css";
+import InStudio from "./components/InStudio/InStudio";
+import MyTrainSecret from "./components/myTrainSecret/myTrainSecret";
+import StudioInfo from "./components/StudioInfo/StudioInfo";
 
 const AboutStudio = () => {
   return (
-    <div>
-      <p>
-        <li> על הסטודיו </li>
-        <li>האימונים בסטודיו הם לנשים בלבד !</li>
-        <li>כך שתוכלי להרגיש הכי בנוח ובכיף .</li>
-        <li>באימון נעבוד על כל מרכיבי הכושר הגופני</li>
-        <li>גמישות , יציבות , סיבולת אירובית , כוח , כוח מפרץ ועוד ...</li>
-        <li>תלמדי לעבור עם משקלים שונים , גומיות וכדורי כוח.</li>
-        <li>העבודה היא בקבוצות קטנות ואינטימיות עד 10 מתאמנות בלבד .</li>
-      </p>
-      <p>
-        <li>למי האימונים מתאימים ?</li>
-        <li>לכולן !</li>
-        <li>לנשים בהריון</li>
-        <li>לנשים אחרי לידה</li>
-        <li>לנשים הסובלות מפריצות או פציעות עבר</li>
-        <li>לנשים הסובלות מפיברומיאלגיה</li>
-      </p>
-      <p>
-        <li>מה תקבלי אצלי בסטודיו ?</li>
-        <li>
-          מקסימום יחס אישי והתאמה של תרגילים ומשקלים המותאמים ולמטרות שלך.
-        </li>
-        <li>מעקב שקילות שבועי</li>
-        <li>מדידות היקפים</li>
-        <li>ייעוץ תזונתי</li>
-        <li>
-          בואי ללמוד את השיטה הייחודית שלי שתגרום לך לראות מקסימום תוצאות
-          במינימום מאמץ.
-        </li>
-      </p>
+    <div className="about-studio-container">
+      <div className="about-studio-title">
+        <h1> על הסטודיו </h1>
+      </div>
+
+      <MyTrainSecret />
+      <StudioInfo />
+      <InStudio />
     </div>
   );
 };
