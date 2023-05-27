@@ -25,10 +25,9 @@ export const sendEmail = (e) => {
 export const fadeInEmailCard = () => {
   const height =
     $(".contactUs-icons-container").offset().top -
-    $(".contact-input-container").height();
+    $(".contactUs-container").height() / 1.2;
 
-  for (let i = 0; i < 3; i++)
-    addAnimationToClass(".contact-input", "bounceInUp", 0.6, height, 1);
+  addAnimationToClass(".contact-input", "bounceInUp", 0.6, height, 1);
 };
 
 export const fadeInIcons = () => {

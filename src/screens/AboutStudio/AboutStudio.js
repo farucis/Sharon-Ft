@@ -6,7 +6,7 @@ import StudioInfo from "./components/StudioInfo/StudioInfo";
 
 const AboutStudio = () => {
   return (
-    <div className="about-studio-container">
+    <section className="about-studio-container">
       <div className="about-studio-title">
         <h1> על הסטודיו </h1>
       </div>
@@ -14,7 +14,7 @@ const AboutStudio = () => {
       <MyTrainSecret />
       <StudioInfo />
       <InStudio />
-    </div>
+    </section>
   );
 };
 
