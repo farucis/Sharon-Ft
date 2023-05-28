@@ -12,8 +12,9 @@ const AboutStudio = () => {
       </div>
 
       <MyTrainSecret />
-      <StudioInfo />
       <InStudio />
+      <StudioInfo />
+      <div className="end-page" />
     </section>
   );
 };
