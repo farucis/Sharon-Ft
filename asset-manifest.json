@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Sharon-Ft/static/css/main.62ffa94e.css",
-    "main.js": "/Sharon-Ft/static/js/main.638d5bae.js",
+    "main.css": "/Sharon-Ft/static/css/main.06de1cc6.css",
+    "main.js": "/Sharon-Ft/static/js/main.a72796e6.js",
     "static/js/787.bfbd36d2.chunk.js": "/Sharon-Ft/static/js/787.bfbd36d2.chunk.js",
     "static/media/bg-video.mp4": "/Sharon-Ft/static/media/bg-video.eb7f16f6e73a66156eaa.mp4",
     "static/media/IMG_20221127_152800.jpg": "/Sharon-Ft/static/media/IMG_20221127_152800.c70bbc4a770fa8f222f7.jpg",
@@ -22,18 +22,23 @@
     "static/media/self1.jpeg": "/Sharon-Ft/static/media/self1.88a3bf5b1d0bdd9f06be.jpeg",
     "static/media/Screenshot_20221025-210503_Gallery.jpg": "/Sharon-Ft/static/media/Screenshot_20221025-210503_Gallery.276da7c9bb4be1eb9d97.jpg",
     "static/media/self3.jpeg": "/Sharon-Ft/static/media/self3.dc1a7343930ca24059cb.jpeg",
+    "static/media/second.png": "/Sharon-Ft/static/media/second.4b8a5f851e98fd8d7fcd.png",
     "static/media/Screenshot_20221025-205916_WhatsAppBusiness.jpg": "/Sharon-Ft/static/media/Screenshot_20221025-205916_WhatsAppBusiness.76b42965551a7af6f6d4.jpg",
     "static/media/Screenshot_20220907-141208_WhatsAppBusiness.jpg": "/Sharon-Ft/static/media/Screenshot_20220907-141208_WhatsAppBusiness.1cd306c861a3d1e43a89.jpg",
+    "static/media/לוגו גדלים-02.png": "/Sharon-Ft/static/media/לוגו גדלים-02.7874465ab3695f690932.png",
     "static/media/first.png": "/Sharon-Ft/static/media/first.78ed768287fd7d430556.png",
     "static/media/text-logo.png": "/Sharon-Ft/static/media/text-logo.6455e2d565f3c79ab2d6.png",
+    "static/media/brain-icon.png": "/Sharon-Ft/static/media/brain-icon.0e10e660b6121db8377b.png",
     "static/media/background-lines.png": "/Sharon-Ft/static/media/background-lines.2ba56da22d3b46b411b0.png",
+    "static/media/lifestyle.png": "/Sharon-Ft/static/media/lifestyle.5e13a2d528520febd556.png",
+    "static/media/apple-outline-transparent-8.png": "/Sharon-Ft/static/media/apple-outline-transparent-8.08331da74b48af19bd30.png",
     "index.html": "/Sharon-Ft/index.html",
-    "main.62ffa94e.css.map": "/Sharon-Ft/static/css/main.62ffa94e.css.map",
-    "main.638d5bae.js.map": "/Sharon-Ft/static/js/main.638d5bae.js.map",
+    "main.06de1cc6.css.map": "/Sharon-Ft/static/css/main.06de1cc6.css.map",
+    "main.a72796e6.js.map": "/Sharon-Ft/static/js/main.a72796e6.js.map",
     "787.bfbd36d2.chunk.js.map": "/Sharon-Ft/static/js/787.bfbd36d2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.62ffa94e.css",
-    "static/js/main.638d5bae.js"
+    "static/css/main.06de1cc6.css",
+    "static/js/main.a72796e6.js"
   ]
 }
