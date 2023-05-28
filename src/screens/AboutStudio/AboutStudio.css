@@ -2,6 +2,7 @@
   background-color: rgb(207, 52, 215);
   margin-top: 50px;
   position: relative;
+  z-index: 1;
 }
 
 .about-studio-container:before {
@@ -17,6 +18,5 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  z-index: -1;
 }
-
-

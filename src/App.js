@@ -1,4 +1,5 @@
 import "./App.css";
+import BackToTop from "./components/BackToTop/BackToTop";
 import AboutMe from "./screens/AboutMe/AboutMe";
 import AboutStudio from "./screens/AboutStudio/AboutStudio";
 import ContactUs from "./screens/ContactUs/ContactUs";
@@ -17,6 +18,7 @@ function App() {
       <AboutStudio />
       <TrainingPackages />
       <ContactUs />
+      <BackToTop />
       <section className="end-page" />
     </div>
   );

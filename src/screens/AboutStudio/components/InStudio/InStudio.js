@@ -5,11 +5,11 @@ import UI_MAGES from "../../../../assets/pictures/UI_MAGES";
 const InStudio = () => {
   return (
     <div className="in-studio-container">
-        <h2>?מה תקבלי אצלי בסטודיו</h2>
+      <h2>?מה תקבלי אצלי בסטודיו</h2>
       <div className="studio-options-container">
-        {inStudioDB1.map((obj) => {
+        {inStudioDB1.map((obj, index) => {
           return (
-            <div className="studio-options">
+            <div className="studio-options" key={index}>
               <i>
                 <img src={obj.icon} alt="try realod" />
               </i>
@@ -22,9 +22,9 @@ const InStudio = () => {
         })}
       </div>
       <div className="studio-options-container">
-        {inStudioDB2.map((obj) => {
+        {inStudioDB2.map((obj, index) => {
           return (
-            <div className="studio-options">
+            <div className="studio-options" key={index}>
               <i>
                 <img src={obj.icon} alt="try realod" />
               </i>
