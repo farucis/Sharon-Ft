@@ -26,7 +26,7 @@ const CustomerProcesses = () => {
   };
 
   return (
-    <section id="cusPro" className="customer-processes-container">
+    <section id="CustomersProcess" className="customer-processes-container">
       <div className="title-container">
         <h1> תגובות של מתאמנות</h1>
       </div>

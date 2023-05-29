@@ -6,7 +6,7 @@ import AboutMeCard from "./components/AboutMeCard/AboutMeCard";
 
 const AboutMe2 = () => {
   return (
-    <section className="aboutme-container">
+    <section id={"AbutMe"} className="aboutme-container">
       <AboutMeCard />
       <TrainingMethod />
     </section>

@@ -6,7 +6,7 @@ import EmailInputArea from "./components/EmailInputArea/EmailInputArea";
 
 const ContactUs = () => {
   return (
-    <section className="contactUs-container">
+    <section id="ContactUs" className="contactUs-container">
       <div className="contactUs-logo" />
       <ContactUsIcons />
       <EmailInputArea />

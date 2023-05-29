@@ -12,6 +12,7 @@
 .App {
   text-align: center;
   background-color: var(--dark-pink-button);
+  scroll-snap-type: mandatory;
 }
 
 .App-logo {

@@ -3,6 +3,7 @@ import "./TrainingMethod.css";
 import $ from "jquery";
 import { scrollToTrainingOffset } from "./components/Function";
 import Stages from "./components/Stages/Stages";
+import { nextTrainHandler } from "../../../../components/Functions";
 
 const TrainingMethod = () => {
   $(window).scroll(scrollToTrainingOffset);
@@ -19,7 +20,7 @@ const TrainingMethod = () => {
             <li>.להתחזק ולהתחטב מצאת את המקום המושלם</li>
           </p>
 
-          <button>להצטרף בקליק</button>
+          <button onClick={nextTrainHandler}>להצטרף בקליק</button>
         </div>
       </div>
       <Stages />

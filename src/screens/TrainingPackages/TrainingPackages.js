@@ -9,7 +9,7 @@ const TrainingPackages = () => {
   $(window).scroll(loadCardsByOffset);
 
   return (
-    <section id="trainingPackages">
+    <section id="TrainingPackages">
       <div className="training-packages-contaoner">
         <li>?מה המסלולים</li>
       </div>

@@ -6,7 +6,7 @@ import StudioInfo from "./components/StudioInfo/StudioInfo";
 
 const AboutStudio = () => {
   return (
-    <section className="about-studio-container">
+    <section id={'AboutStudio'} className="about-studio-container">
       <div className="about-studio-title">
         <h1> על הסטודיו </h1>
       </div>

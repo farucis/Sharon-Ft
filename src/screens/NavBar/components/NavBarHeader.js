@@ -4,7 +4,7 @@ import { FaWaze, FaInstagram, FaWhatsapp } from "react-icons/fa";
 const NavBarHeader = () => {
   return (
     <div className="header">
-      <div className="n-logo"></div>
+      <div className="n-logo" onClick={() => window.location.reload()}></div>
       <div className="contact-buttones">
         <a
           target="_blank"
